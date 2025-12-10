@@ -223,7 +223,6 @@ nvidia-driver-manager/
 ├── nvidia_driver_manager.sh            # Main driver manager
 ├── nvidia_troubleshoot.sh              # Troubleshooting script  
 ├── nvidia_precheck.sh                  # System pre-check tool
-└── docs/                               # Additional documentation
 ```
 
 ## 🔧 **Advanced Configuration**
@@ -242,15 +241,6 @@ Change CUDA repository mirror by editing:
 echo "deb [trusted=yes] https://your-mirror.com/cuda/repos/debian$(lsb_release -rs)/x86_64 /" > /etc/apt/sources.list.d/cuda.list
 ```
 
-## 🤝 **Contributing**
-
-Contributions are welcome! Please:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
 
 ### Development Guidelines
 - Follow bash best practices
@@ -273,12 +263,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 For issues and support:
 
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/nvidia-driver-manager/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/nvidia-driver-manager/discussions)
 - **Documentation**: See `README_nvidia_driver_manager.md` for detailed guide
 
 ---
 
 **Made with ❤️ for the Debian and NVIDIA community**
 
-*Last updated: December 2024*
+*Last updated: December 2025*
